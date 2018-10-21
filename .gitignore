@@ -1,0 +1,60 @@
+*~
+.DS_Store
+
+# Merge files
+*.orig
+
+# Binaries
+*.dylib
+*.a
+*.o
+*.d
+*.libdeps
+*.zip
+*.realm
+*.realm.lock
+*.management/
+
+vendor/realm-*
+
+# jsdoc
+/docs/output
+
+# XCode
+*.bak
+xcuserdata/
+project.xcworkspace
+*.xccheckout
+DerivedData
+
+# node.js
+node_modules/
+npm-debug.log
+build/
+/compiled/
+*.lock
+
+# Emacs
+*~
+
+# Android/IJ
+/android
+/react-native/android/src/main/jni/core
+.idea
+.gradle
+local.properties
+
+# Visual Studio Code
+.vscode
+tsconfig.json
+
+# Tests
+object-server-for-testing/
+realm-object-server-data/
+tests/realm-object-server/
+packager_out.txt
+build.log.*
+realm-object-server/
+tests/react-test-app/ios/out.txt
+*.iml
+crash.log
